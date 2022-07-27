@@ -1,4 +1,4 @@
-const allure = require('allure-commandline')
+//const allure = require('allure-commandline')
 exports.config = {
     // ====================
     // BrowserStack Config
@@ -335,4 +335,4 @@ exports.config = {
     * @param {String} newSessionId session ID of the new session
     */
     // onReload: function(oldSessionId, newSessionId) {
-    //}
+  }
