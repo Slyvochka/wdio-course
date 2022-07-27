@@ -315,18 +315,18 @@ exports.config = {
         //         () => reject(reportError),
         //         5000)
 
-            generation.on('exit', function(exitCode) {
-                clearTimeout(generationTimeout)
+            // generation.on('exit', function(exitCode) {
+            //     clearTimeout(generationTimeout)
 
-                if (exitCode !== 0) {
-                    return reject(reportError)
-                }
+                // if (exitCode !== 0) {
+                //     return reject(reportError)
+                // }
 
-                console.log('Allure report successfully generated')
-                resolve()
-            })
-        })
-    }
+                // console.log('Allure report successfully generated')
+                // resolve()
+    //         })
+    //     })
+    // }
 
     }
     /**
@@ -335,4 +335,4 @@ exports.config = {
     * @param {String} newSessionId session ID of the new session
     */
     // onReload: function(oldSessionId, newSessionId) {
-    // }
+    //}
